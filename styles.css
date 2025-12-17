@@ -20,8 +20,16 @@ body {
 }
 .logo a {
    color:azure;
+   border: solid 1px;
+   border-radius: 5px;
+   background-color: rgb(221, 136, 33);
+   text-decoration: none;
 }
 img {
    height: 200px;
    width: 350px;
+}
+.logo:hover {
+   color:rgb(23, 14, 2);
+   transform: translatey(-2px);
 }

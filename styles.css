@@ -6,7 +6,7 @@ body {
 .navbar {
    display:flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: end;
    color:azure;
 }
 .nav-links {
@@ -17,6 +17,7 @@ body {
    display:flex;
    gap: 1.5rem;
    color:azure;
+   justify-content: end;
 }
 .logo a {
    color:azure;
